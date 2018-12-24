@@ -1,7 +1,7 @@
 ﻿spring: 
   prefiles: 
-  active: 
-  - dev
+    active: 
+    - dev
 ---
 spring: 
   prefiles: dev #开发环境
