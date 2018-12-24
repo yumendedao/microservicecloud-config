@@ -1,0 +1,15 @@
+spring: 
+  prefiles: 
+  active: 
+  - dev
+---
+spring: 
+  prefiles: dev #开发环境
+  application:
+    name: microservicecloud-config-atguigu-dev
+---
+spring: 
+  prefiles: test #测试环境
+  application:
+    name: microservicecloud-config-atguigu-test
+    
