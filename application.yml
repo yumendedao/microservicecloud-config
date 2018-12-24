@@ -4,12 +4,12 @@
   - dev
 ---
 spring: 
-  prefiles: dev #¿ª·¢»·¾³
+  prefiles: dev #å¼€å‘ç¯å¢ƒ
   application:
     name: microservicecloud-config-atguigu-dev
 ---
 spring: 
-  prefiles: test #²âÊÔ»·¾³
+  prefiles: test #æµ‹è¯•ç¯å¢ƒ
   application:
     name: microservicecloud-config-atguigu-test
     
