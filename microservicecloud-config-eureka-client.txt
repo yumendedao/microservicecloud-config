@@ -8,16 +8,16 @@ server:
 
 spring: 
   profiles: dev
-  application:
+  application: 
     name: microservicecloud-config-eureka-client
 
-eureka:
+eureka: 
   instance: 
     hostname: eureka7001.com
   client: 
     register-with-eureka: false #当前eureka-server自己不注册进服务列表中
 	fetch-registry: false #不通过eureka 获取注册信息
-	service-url:
+	service-url: 
 	  defaultZone: http://eureak7001.com:7001/eureka/
 	  
 ---
@@ -27,16 +27,16 @@ server:
 
 spring: 
   profiles: test
-  application:
+  application: 
     name: microservicecloud-config-eureka-client
 
-eureka:
+eureka: 
   instance: 
     hostname: eureka7001.com
   client: 
     register-with-eureka: false #当前eureka-server自己不注册进服务列表中
 	fetch-registry: false #不通过eureka 获取注册信息
-	service-url:
+	service-url: 
 	  defaultZone: http://eureak7001.com:7001/eureka/
 	
 
